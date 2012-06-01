@@ -3,8 +3,14 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+    
 
 
+	<Button
+	    android:id="@+id/bmonth"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Button" />
 
     <TableLayout
         android:layout_width="fill_parent"
@@ -46,6 +52,5 @@
         android:layout_height="wrap_content" >
     </TableRow>    
    
-</TableLayout>
-
+</TableLayout>   
 </LinearLayout>
